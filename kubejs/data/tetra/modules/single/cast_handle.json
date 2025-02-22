@@ -1,0 +1,52 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/handle"
+    ],
+    "renderLayer": "lower",
+    "improvements": [
+        "tetra:single/cast_handle/",
+        "tetra:single/shared_handle/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
+            "key": "cast_handle/",
+            "attributes": {
+                "irons_spellbooks:cooldown_reduction": 0.1
+            },
+            "aspects": {
+                "block_breaker": 1,
+                "breakable": 2
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "irons_spellbooks:cast_time_reduction": 0.01,
+                    "irons_spellbooks:max_mana": 20
+                },
+                "secondaryAttributes": {
+                    "irons_spellbooks:cooldown_reduction": -0.04
+                },
+                "tertiaryAttributes": {
+                    "irons_spellbooks:cooldown_reduction": 0.02,
+                    "irons_spellbooks:spell_power": -0.06
+                },
+                "durability": 0.25,
+                "integrity": 1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 16
+                },
+                "availableTextures": [ "default", "metal", "bone", "bright" ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/single/handle/long/"
+                    }
+                ]
+            }
+        }
+    ]
+}

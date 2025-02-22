@@ -1,0 +1,35 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 240
+    },
+    "translation": {
+        "primaryAttributes": {
+            "irons_spellbooks:spell_power": 2,
+            "irons_spellbooks:max_mana": -1
+        },
+        "secondaryAttributes": {
+            "irons_spellbooks:cooldown_reduction": -1,
+            "irons_spellbooks:max_mana": 2
+        },
+        "tertiaryAttributes": {
+            "irons_spellbooks:cooldown_reduction": 3,
+            "irons_spellbooks:spell_power": -1
+        },
+        "durability": 3,
+        "integrity": -3,
+        "magicCapacity": 2
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "countFactor": 2,
+            "moduleKey": "single/wand_head",
+            "moduleVariant": "wand_head/"
+        }
+    ]
+}

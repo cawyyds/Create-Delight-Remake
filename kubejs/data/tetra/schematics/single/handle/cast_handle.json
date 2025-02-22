@@ -1,0 +1,35 @@
+{
+    "replace": true,
+    "slots": [
+        "single/handle"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 112,
+        "textureY": 32
+    },
+    "translation": {
+        "primaryAttributes": {
+            "irons_spellbooks:cast_time_reduction": 1,
+            "irons_spellbooks:max_mana": 2
+        },
+        "secondaryAttributes": {
+            "irons_spellbooks:cooldown_reduction": -1
+        },
+        "tertiaryAttributes": {
+            "irons_spellbooks:cooldown_reduction": 2,
+            "irons_spellbooks:spell_power": -2
+        },
+        "durability": 1,
+        "integrity": 3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/"],
+            "moduleKey": "single/cast_handle",
+            "moduleVariant": "cast_handle/"
+        }
+    ]
+}

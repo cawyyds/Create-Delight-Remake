@@ -1,0 +1,99 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [ "single/head" ],
+    "improvements": [
+        "tetra:single/head/wand/",
+        "tetra:single/shared_head/",
+        "tetra:single/head/shared/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:bone/" ],
+            "key": "wand_head/",
+            "attributes": {
+                "generic.attack_speed": -1,
+                "generic.armor": 0.1
+            },
+            "effects": {
+                
+            },
+            "aspects": {
+                "breakable": 2,
+                "blunt_weapon": 1
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "irons_spellbooks:spell_power": 0.05,
+                    "irons_spellbooks:max_mana": -10
+                },
+                "secondaryAttributes": {
+                    "irons_spellbooks:cooldown_reduction": -0.01,
+                    "irons_spellbooks:max_mana": 20
+                },
+                "tertiaryAttributes": {
+                    "irons_spellbooks:cooldown_reduction": 0.03,
+                    "irons_spellbooks:spell_power": -0.05
+                },
+                "durability": 0.9,
+                "integrity": -1,
+                "magicCapacity": 1.5,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                    "textureX": 240
+                },
+                "availableTextures": [ "metal", "shiny", "crude" ],
+                "models": [{ "location": "tetra:item/module/single/head/cane_head/" }]
+            }
+        },
+        {
+            "materials": [ "tetra:gem/" ],
+            "key": "wand_head/",
+            "attributes": {
+                "generic.attack_speed": -1,
+                "generic.movement_speed": 0.12,
+                "generic.armor": 0.1
+            },
+            "effects": {
+                "stun": [ 1, 5 ]
+            },
+            "aspects": {
+                "breakable": 2,
+                "blunt_weapon": 1
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "irons_spellbooks:spell_power": 0.1,
+                    "irons_spellbooks:max_mana": -10
+                },
+                "secondaryAttributes": {
+                    "irons_spellbooks:cooldown_reduction": -0.01,
+                    "irons_spellbooks:max_mana": 30
+                },
+                "primaryEffects": {
+                    "stun": 0.1
+                },
+                "secondaryEffects": {
+                    "stun": 0.15
+                },
+                "durability": 0.9,
+                "integrity": -1,
+                "magicCapacity": 1.5,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                    "textureX": 240
+                },
+                "availableTextures": [
+                    "gem"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/single/head/cane_head/"
+                    }
+                ]
+            }
+        }
+    ]
+}
