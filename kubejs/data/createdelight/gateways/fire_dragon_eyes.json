@@ -45,7 +45,7 @@
 				}
 			],
 			"max_wave_time": 1200,
-			"setup_time": 100
+			"setup_time": 200
 		},
 		{
 			"entities": [
@@ -95,7 +95,7 @@
 				}
 			],
 			"max_wave_time": 1200,
-			"setup_time": 150
+			"setup_time": 400
 		},
 		{
 			"entities": [
@@ -145,7 +145,7 @@
 				}
 			],
 			"max_wave_time": 1200,
-			"setup_time": 200
+			"setup_time": 400
 		}
 	],
 	"rewards": [
