@@ -63,6 +63,40 @@
 			x: 9.5d
 			y: 3.0d
 		}
+		{
+			height: 5.0d
+			image: "alexscaves:block/spelunkery_table_side"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 5.0d
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/fire_1"
+			order: 2
+			rotation: 0.0d
+			width: 4.0d
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/respawn_anchor_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.0d
+			y: -9.0d
+		}
 	]
 	order_index: 8
 	quest_links: [ ]
@@ -399,6 +433,7 @@
 			dependencies: [
 				"752E66805BBFEC51"
 				"6DC960C9CBFEEAE9"
+				"604734C6B3F31B97"
 			]
 			description: [
 				"嗨!看到这里说明你已经把gateway通关了，恭喜!!!"
@@ -585,6 +620,367 @@
 			title: "糖分临界点"
 			x: 9.5d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dread_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44188E77D6AE23D6"
+			rewards: [{
+				id: "466CD9B88E06249A"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "或许我们可以在这寒冷中获取意想不到的知识"
+			tasks: [
+				{
+					id: "46CD1FDE51864B4B"
+					item: {
+						Count: 1
+						id: "iceandfire:dread_queen_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6220EB140F5E7A64"
+					item: {
+						Count: 1
+						id: "iceandfire:dread_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "北国风光，千里冰封，万里雪飘"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: "iceandfire:dragonsteel_ice_ingot"
+			id: "1989A9743229C7F3"
+			rewards: [{
+				id: "31B4B7BE150A2FDC"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "龙霜钢，乃是人类已知的最坚韧、最特殊的金属材料"
+			tasks: [
+				{
+					id: "4BBD47157A9140F4"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EBA2A1B9CE25A29"
+					item: { Count: 4, id: "iceandfire:dragonforge_ice_brick" }
+					type: "item"
+				}
+			]
+			title: "锻造解析——冰"
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: "art_of_forging:fragment_of_eden"
+			id: "0C07BC5A9E92D2FE"
+			rewards: [{
+				count: 2
+				id: "5A92B096B060F942"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "什么样的力量可以撕裂灵魂......或许他们已经得知了灵魂的本质"
+			tasks: [
+				{
+					id: "091D4AB6AC605D9A"
+					item: "art_of_forging:devils_soul_gem"
+					type: "item"
+				}
+				{
+					id: "5EDBB49BFAD4E353"
+					item: "art_of_forging:sigil_of_eden"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25A86D84CECB090E"
+					item: { Count: 4, id: "art_of_forging:fragment_of_eden" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "498FC34865E9C3CC"
+					item: { Count: 2, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			title: "零落成泥碾作尘"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: "iceandfire:dragonsteel_lightning_ingot"
+			id: "047A204892A72852"
+			rewards: [{
+				id: "64151FFA1A16D320"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "龙霆钢，乃是人类已知的最坚韧、附有雷霆的金属材料"
+			tasks: [
+				{
+					id: "1B1EF9CE69517903"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "734783E8297D713C"
+					item: { Count: 4, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+			]
+			title: "锻造解析——电"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "1C003939732D3C2D"
+			rewards: [{
+				id: "6253205582736D44"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "龙炎钢，乃是人类已知的最坚韧、最泛用的金属材料"
+			tasks: [
+				{
+					id: "6F47B96DB6F64F82"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18C7D447C92F63C4"
+					item: { Count: 4, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+			]
+			title: "锻造解析——炎"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			icon: "alexscaves:frostmint_spear"
+			id: "50AE15958441CF03"
+			rewards: [{
+				id: "2213B63B12E56670"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "这些有生命的糖果尽管没有什么观赏性，但是依旧十分美味"
+			tasks: [
+				{
+					id: "1F91C1E1FF29CF5F"
+					item: "alexscaves:frostmint_spear"
+					type: "item"
+				}
+				{
+					id: "0DEE47EEBE7ACAD6"
+					item: {
+						Count: 1
+						id: "alexscaves:sugar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CB80E9ACF45116D"
+					item: {
+						Count: 1
+						id: "alexscaves:sack_of_sating"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "好吃，无需多言"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4201F47CA66A766D"]
+			description: ["         通过解析获得的资料让我们摸透了打开空间的基础方式，现在我们可以在不稳定的虚空中打捞裂隙了。"]
+			id: "4423A5C61A33F2F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ACA9EED91759E42"
+				table_id: 2660902812389549554L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "在虚空中提取空间裂隙。"
+			tasks: [{
+				count: 2L
+				id: "4EC238D8E66D0FA0"
+				item: { Count: 2, id: "createdelight:otherworld_note" }
+				type: "item"
+			}]
+			title: "空间研习"
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4423A5C61A33F2F6"]
+			description: ["         利用末影珍珠的性质，我们在虚空中探寻到一片新的区域，在这里我们将会更加容易获得中型和大型裂隙。"]
+			icon: "createdelight:otherworld_note"
+			id: "08BCC65750B654D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77BCA7CD2EA04332"
+				table_id: 7536739536843869218L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "世界会向那些有目标和远见的人让路。"
+			tasks: [
+				{
+					count: 4L
+					id: "14B3AC62DB21401F"
+					item: "createdelight:otherworld_note"
+					type: "item"
+				}
+				{
+					id: "5003D3EBAEC3877F"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "深度提取"
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["08BCC65750B654D3"]
+			description: ["         在空间塔的建设中我们获取灵感，利用水晶的力量折射出一条新的道路，现在我们可以直接提取特殊传送门了。"]
+			icon: "createdelight:otherworld_note"
+			id: "4E195F341C5A9CD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E03920D5EADBC9E"
+				table_id: 5487266226236316372L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "一个人若没有确定航行的目的港，任何风对他来说都不是顺风。"
+			tasks: [
+				{
+					count: 8L
+					id: "1C1A206422B4BB28"
+					item: { Count: 8, id: "createdelight:otherworld_note" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2C52EB33DF6B6928"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "定向提取"
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4423A5C61A33F2F6"]
+			description: ["         我们在不断学习的过程中，过去的知识将会成为我们最坚实的后盾！"]
+			id: "12CF4C2F08534F4E"
+			rewards: [
+				{
+					id: "0477DCB49917E0EF"
+					table_id: 1515464272228904394L
+					type: "random"
+				}
+				{
+					icon: "minecraft:amethyst_shard"
+					id: "3F97CB8598125103"
+					table_id: 2077532568744688732L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "获取基础材料"
+			tasks: [{
+				count: 2L
+				id: "52EC1D92B20130BD"
+				item: "createdelight:otherworld_note"
+				type: "item"
+			}]
+			title: "知识分解"
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"752E66805BBFEC51"
+				"604734C6B3F31B97"
+				"6DC960C9CBFEEAE9"
+			]
+			description: ["         恭喜你，现在你可以在冒险者工会参与提取空间裂隙研究了。通过解析材料，我们将知识记录于“异界手册”上，接下来，我们利用这些知识，从虚空中提取裂隙。"]
+			hide_dependency_lines: true
+			icon: "eclipticseasons:calendar"
+			id: "4201F47CA66A766D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F9F4C99822B65A5"
+				table_id: 2660902812389549554L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "（完成本页主线开启）"
+			tasks: [{
+				id: "7A6958C15EC45118"
+				title: "冒险者凭证"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["泪如灰落，绣如星宿"]

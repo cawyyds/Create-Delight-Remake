@@ -1,0 +1,107 @@
+{
+	id: "6897E0AD6A388C22"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:emerald_grove"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:endless/blaze"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:overworldian_nights"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:fire_dragon_eyes"
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:hellish_fortress"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:ice_dragon"
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:piercing_withering_trial"
+				}
+			}
+			weight: 0.6f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:sweettide_brokenpoint"
+				}
+			}
+			weight: 0.6f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:the_gate_of_eternal_cold"
+				}
+			}
+			weight: 0.6f
+		}
+		{
+			item: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "createdelight:lightning_dragon"
+				}
+			}
+			weight: 0.8f
+		}
+	]
+	title: "深度提取"
+}
